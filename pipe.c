@@ -8,8 +8,6 @@
 
 int main(int argc, char *argv[])
 {
-	int error = errno;
-	int argsRemain = argc;
 	
 	for (int i = 1; i < argc; i++)
 	{
